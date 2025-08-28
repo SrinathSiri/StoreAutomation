@@ -7,8 +7,10 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 public class UserTestsDDT {
-    @Test(dataProvider = "getdata",dataProviderClass = ExcelUtility.class)
-    public void userTestsDDT(String userid,String username,String fname,String lname,String email,String pwd,String phone){
+
+
+    @Test(priority = 1, dataProvider = "getdata",dataProviderClass = ExcelUtility.class)
+    public void userTestsCreateDDT(String userid,String username,String fname,String lname,String email,String pwd,String phone){
         User pojodata = new User();
         pojodata.setId((int) Double.parseDouble(userid));
         pojodata.setUsername(username);
@@ -19,5 +21,11 @@ public class UserTestsDDT {
         pojodata.setPhone(phone);
         Response response = UserEndPoints.createUser(pojodata);
         response.then().log().all();
+    }
+
+    @Test(priority = 2, dataProvider="getUserNamesData",dataProviderClass = ExcelUtility.class)
+    public void userTestDeleteDDT(String ecusername){
+    Response response = UserEndPoints.deleteUser(ecusername);
+    response.then().log().all();
     }
 }
