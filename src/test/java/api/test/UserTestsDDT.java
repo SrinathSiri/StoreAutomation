@@ -22,8 +22,13 @@ public class UserTestsDDT {
         Response response = UserEndPoints.createUser(pojodata);
         response.then().log().all();
     }
-
     @Test(priority = 2, dataProvider="getUserNamesData",dataProviderClass = ExcelUtility.class)
+    public void getUserTestDDT(String ecusername){
+        Response response = UserEndPoints.readUser(ecusername);
+        response.then().log().all();
+    }
+
+    @Test(priority = 3, dataProvider="getUserNamesData",dataProviderClass = ExcelUtility.class)
     public void userTestDeleteDDT(String ecusername){
     Response response = UserEndPoints.deleteUser(ecusername);
     response.then().log().all();
