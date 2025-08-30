@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T13:24:25 IST" name="All Test Suite" finished-at="2025-08-29T13:24:41 IST" duration-ms="16739">
+    <groups>
+    </groups>
+    <test started-at="2025-08-29T13:24:25 IST" name="API-UserPost Delete" finished-at="2025-08-29T13:24:41 IST" duration-ms="16739">
+      <class name="api.test.UserTestsDDT">
+        <test-method signature="userTestsCreateDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:26 IST" name="userTestsCreateDDT" data-provider="getdata" finished-at="2025-08-29T13:24:31 IST" duration-ms="4486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[textuser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canedy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.234567897E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestsCreateDDT -->
+        <test-method signature="userTestsCreateDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:31 IST" name="userTestsCreateDDT" data-provider="getdata" finished-at="2025-08-29T13:24:32 IST" duration-ms="1214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1020.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[textuser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.234567897E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestsCreateDDT -->
+        <test-method signature="userTestsCreateDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:32 IST" name="userTestsCreateDDT" data-provider="getdata" finished-at="2025-08-29T13:24:33 IST" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1030.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[textuser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.234567897E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestsCreateDDT -->
+        <test-method signature="getUserTestDDT(java.lang.String)[pri:2, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:33 IST" name="getUserTestDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:35 IST" duration-ms="1238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTestDDT -->
+        <test-method signature="getUserTestDDT(java.lang.String)[pri:2, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:35 IST" name="getUserTestDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:36 IST" duration-ms="1209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTestDDT -->
+        <test-method signature="getUserTestDDT(java.lang.String)[pri:2, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:36 IST" name="getUserTestDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:38 IST" duration-ms="1870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTestDDT -->
+        <test-method signature="userTestDeleteDDT(java.lang.String)[pri:3, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:38 IST" name="userTestDeleteDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:39 IST" duration-ms="1201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestDeleteDDT -->
+        <test-method signature="userTestDeleteDDT(java.lang.String)[pri:3, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:39 IST" name="userTestDeleteDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:40 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestDeleteDDT -->
+        <test-method signature="userTestDeleteDDT(java.lang.String)[pri:3, instance:api.test.UserTestsDDT@2beee7ff]" started-at="2025-08-29T13:24:40 IST" name="userTestDeleteDDT" data-provider="getUserNamesData" finished-at="2025-08-29T13:24:41 IST" duration-ms="1236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTestDeleteDDT -->
+      </class> <!-- api.test.UserTestsDDT -->
+    </test> <!-- API-UserPost Delete -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
